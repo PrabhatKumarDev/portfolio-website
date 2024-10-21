@@ -1,0 +1,80 @@
+.modal-wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+    /* opacity: 0.75; */
+    justify-content: center;
+    align-items: center;
+    color: #555555;
+}
+.modal-container{
+    max-width: 40rem;
+    height: 80vh;
+    position: fixed;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+#title{
+    padding: 1rem 0;
+}
+#description{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+.about-me{
+    margin-top: 4rem;
+}
+.about-me > p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+.expertise-section{
+    position: relative;
+    height: 100%;
+}
+.expertise-section > h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.expertise-list{
+    font-size: 1.5rem;
+    margin-left: 1.4rem;
+}
+.expertise-list > li{
+    padding-bottom: 0.8rem;
+}
+
+.expertise-section > p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.expertise-section > button{
+    position: absolute;
+    bottom: -11rem;
+    right: 0;
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.expertise-section > button > a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
