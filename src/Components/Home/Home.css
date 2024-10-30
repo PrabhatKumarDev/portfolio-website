@@ -2,6 +2,8 @@
     width: 100%;
     height: 92vh;
     background: linear-gradient(to left, #a855f7, #8e65fc, #7371fd, #577bfb, #3b82f6);
+    /* background: linear-gradient(to left, #6b21a8, #5b2a8f, #4e337d, #3f3b69, #312f52); */
+
     margin-top: 8.5rem;
     scroll-margin-top: 8.5rem;
     display: flex;

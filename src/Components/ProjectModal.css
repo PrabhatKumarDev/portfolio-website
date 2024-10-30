@@ -1,0 +1,68 @@
+#project-modal-wrapper{
+    align-items: center;
+}
+.project-modal{
+    width: 40%;
+    background-color: white;
+    /* height: 50%; */
+    border-radius: 1rem;
+    padding: 3rem;
+    color: black;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container > a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+}
+.flex-container > h1{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+.project-modal > p{
+    font-size: 1.6rem;
+}
+.project-modal >.tech-used{
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+
+.button-container{
+    display: flex;
+    gap: 2rem;
+}
+.button-container > a{
+    width: 10rem;
+    height: 2.4rem;
+    padding: .8rem 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: .8rem;
+    box-shadow: 1px 1px 2px black;
+    transition: all 0.3s;
+}
+.button-container a:nth-child(1){
+    background-color: black;
+    color:white;
+}
+.button-container a:nth-child(2){
+    color: black;
+    border: 1px solid #eeeef0;
+}
+
+.button-container > a:hover{
+    border-radius: 4rem;
+}
+
+@media only screen and (max-width:750px) {
+    .project-modal{
+        width: 60%;
+    }
+}

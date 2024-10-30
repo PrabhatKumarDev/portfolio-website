@@ -1,3 +1,4 @@
+
 .modal-wrapper{
     display: flex;
     width: 100vw;
@@ -5,19 +6,20 @@
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
     background-color: rgba(189, 189, 189, 0.9);
-    /* opacity: 0.75; */
     justify-content: center;
     align-items: center;
     color: #555555;
 }
 .modal-container{
     max-width: 40rem;
-    height: 80vh;
+    height: 62rem;
     position: fixed;
     background-color: white;
     padding: 3rem;
     border-radius: 1rem;
+    margin-top: 7rem;
 }
 #title{
     padding: 1rem 0;

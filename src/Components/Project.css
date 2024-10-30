@@ -1,0 +1,39 @@
+.project-wrapper{
+    width: 45%;
+    height: 12rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-between;
+    margin: 1.5rem 1.5rem;
+}
+.project-desc{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+.project-wrapper > button{
+    width: 10.6rem;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #18181b;
+}
+.project-wrapper > button > a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:1400px) {
+    .project-wrapper{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:620px){
+    .project-wrapper{
+        width: 100%;
+        height: 15rem;
+    }
+}

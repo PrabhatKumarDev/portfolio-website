@@ -5,10 +5,205 @@
 html{
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body{
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  height: 10000px;
+  overflow-x: hidden;
+  background-color: #f3f4f6;
+}
+
+#resume{
+  scroll-margin-top: 8rem;
+  background-color: #e5e7eb;
+}
+.resume-wrapper{
+  width:100%;
+  padding: 8rem 0;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.resume-wrapper h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.resume-wrapper p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.resume-wrapper button{
+  font-size: 1.5rem;
+  padding: .8rem 1rem;
+  width: 17.5rem;
+  height:4rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.blogs-wrapper{
+  width: 100%;
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blogs-wrapper > h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom:3.2rem;
+}
+.blog-container{
+  width: 100%;
+  display: flex;
+  gap: 1.5rem; 
+  padding: 0 10rem;
+  flex-wrap: wrap;
+}
+.blog-wrapper{
+  width: 100%;
+  padding: 2.4rem;
+  width: 29%;
+  height: 11.6rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.blog-wrapper h1{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.blog-wrapper p{
+  font-size: 1.5rem;
+}
+
+.blog-wrapper button{
+  font-size: 1.5rem;
+  padding: .8rem 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 10rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.blog-wrapper button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+#blog-modal-header > h1{
+  padding: 0;
+}
+#button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 10rem;
+  background-color: #000;
+  color: #fff;
+  padding: .8rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#blog-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+#blog{
+  scroll-margin-top: 8rem;
+}
+
+#contact{
+  scroll-margin-top: 8rem;
+}
+.contact-wrapper{
+  width: 100%;
+  padding: 8rem 0;
+  /* height: 10rem; */
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-wrapper h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.contact-wrapper > form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-wrapper > form > input[type="text"], .contact-wrapper > form > input[type="email"]{
+  width: 42rem;
+  height: 2.2rem;
+  padding: .8rem 1.2rem;
+  border-radius: .8rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.contact-wrapper > form > textarea{
+  width: 42rem;
+  height: 8rem;
+  padding: .8rem 1.2rem;
+  border-radius: .8rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.contact-wrapper > form > button{
+  width: 44.4rem;
+  font-size: 1.5rem;
+  padding: .8rem 1.2rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: .8rem;
+  border: none;
+}
+
+.footer-wrapper{
+  width: 100%;
+  height: 10rem;
+  background-color: #d1d5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+.icon-wrapper{
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.icon-wrapper > a{
+  text-decoration: none;
+  color: #4b5563;;
+}
+.icon-wrapper > a:hover{
+  color: #111827;
 }
